@@ -50,7 +50,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow-sm mb-4">
     <div class="container">
         <a class="navbar-brand fw-bold" href="{{ route('home') }}">
-            <i class="bi bi-box-seam me-2"></i>ProductManager
+            <i class="bi bi-box-seam me-2"></i>Esenciamática Todo para tu PC
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,13 @@
                 <a class="nav-link-custom nav-link" href="{{ route('products.create') }}"><i class="bi bi-plus-circle me-1"></i> Nuevo</a>
                 <a class="nav-link-custom nav-link" href="{{ route('products.index') }}"><i class="bi bi-list-ul me-1"></i> Listado</a>
                 <a class="nav-link-custom nav-link" href="{{ route('products.filter.form') }}"><i class="bi bi-funnel me-1"></i> Filtros</a>
-                <a class="nav-link-custom nav-link border border-light-subtle" href="{{ route('products.manage') }}"><i class="bi bi-gear me-1"></i> Gestión</a>
+                <a class="nav-link-custom nav-link" href="{{ route('sales.index') }}">
+                    <i class="bi bi-currency-dollar me-1"></i> Ventas
+                </a>
+
+                <a class="nav-link-custom nav-link border border-light-subtle" href="{{ route('products.manage') }}">
+                    <i class="bi bi-gear me-1"></i> Gestión
+                </a>
             </div>
         </div>
     </div>
@@ -89,8 +95,8 @@
 
 <footer class="text-white py-4 mt-auto">
     <div class="container text-center">
-        <p class="mb-1">Desarrollado con <i class="bi bi-heart-fill text-danger"></i> por Alberto Aragón Arjona</p>
-        <small class="text-secondary">&copy; 2026 Sistema de Gestión de Inventario</small>
+        <p class="mb-1">Desarrollado por Alberto Aragón Arjona</p>
+        <small class="text-secondary">&copy; 2026 Administración de Sistemas Informaticos en Red (ASIR)</small>
     </div>
 </footer>
 
